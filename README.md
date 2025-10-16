@@ -2,8 +2,7 @@
 
 # Supply Chain Analytics Project 
 
-## Overview
-On Step 1, we set up the environment for the project in **Google Colab** and generated **mock datasets** to simulate supply chain data.
+## On Step 1, we set up the environment for the project in **Google Colab** and generated **mock datasets** to simulate supply chain data.
 
 ## Goals Achieved
 - Installed required Python packages: `pyspark`, `duckdb`, `plotly`, `faker`, `pandas`.
@@ -18,7 +17,7 @@ On Step 1, we set up the environment for the project in **Google Colab** and gen
 - Previewed datasets to ensure realistic structure.
 
 
-On Step 2, we performed **ETL transformations** on the raw datasets and stored them in **Parquet format** to simulate a data lake.
+## On Step 2, we performed **ETL transformations** on the raw datasets and stored them in **Parquet format** to simulate a data lake.
 
 ## Goals Achieved
 - Loaded raw CSV datasets into **PySpark DataFrames**:
