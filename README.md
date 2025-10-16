@@ -18,7 +18,6 @@ On Step 1, we set up the environment for the project in **Google Colab** and gen
 - Previewed datasets to ensure realistic structure.
 
 
-## Overview
 On Step 2, we performed **ETL transformations** on the raw datasets and stored them in **Parquet format** to simulate a data lake.
 
 ## Goals Achieved
