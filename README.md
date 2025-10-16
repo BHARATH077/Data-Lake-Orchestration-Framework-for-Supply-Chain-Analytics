@@ -17,3 +17,19 @@ On Step 1, we set up the environment for the project in **Google Colab** and gen
    - Columns: shipment_id, vendor_id, expected_delivery, actual_delivery
 - Previewed datasets to ensure realistic structure.
 
+# Supply Chain Analytics Project - Day 2
+
+## Overview
+On Step 2, we performed **ETL transformations** on the raw datasets and stored them in **Parquet format** to simulate a data lake.
+
+## Goals Achieved
+- Loaded raw CSV datasets into **PySpark DataFrames**:
+  - ERP Orders
+  - IoT Shipments
+  - Vendor Shipments
+- Converted string dates/timestamps to **date types** for analytics.
+- Saved all datasets as **Parquet files** in `data_lake/processed/`:
+  - `erp/`
+  - `iot/`
+  - `vendor/`
+
